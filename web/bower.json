@@ -1,0 +1,27 @@
+{
+  "name": "stavebne_konania",
+  "description": "stavebne konania :)",
+  "main": "",
+  "license": "MIT",
+  "homepage": "https://github.com/Carmagedon/stavebne_konania",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/assets/",
+    "test",
+    "tests",
+    "resources/assets/"
+  ],
+  "authors": [
+    "Andrej Szabo <andrej.szabo@gmail.com>"
+  ],
+  "dependencies": {
+    "bootstrap-css": "^3.3.6",
+    "jquery": "^2.2.1",
+    "leaflet": "^0.7.7",
+    "Slidebars": "^0.10.3",
+    "autocomplete.js": "*"
+  }
+}

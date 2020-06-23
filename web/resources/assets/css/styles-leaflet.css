@@ -1,0 +1,19 @@
+/*leaflet*/
+.leaflet-control-container .leaflet-top
+{
+    top:100px;
+}
+.leaflet-control-container .leaflet-left
+{
+    left:32px;
+}
+.leaflet-popup-close-button
+{
+    display:none;
+}
+
+.leaflet-label-overlay
+{
+    position:absolute;
+    font-size:29px;
+}

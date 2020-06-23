@@ -1,0 +1,89 @@
+/*elementy*/
+body
+{
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    min-width: 340px;
+}
+/* mapa */
+#map
+{
+    padding: 200px;
+    height: 100%;
+}
+
+/*ovladacie prvky*/
+#search-icon
+{
+    cursor: pointer;
+}
+.ovladacie-prvky
+{
+    margin: 10px 30px 30px 30px ;
+    width: 500px;
+    position: absolute;
+    z-index: 999;
+}
+#fullTextSearchContainer
+{
+    width: 400px;
+    float: right;
+}
+#fullTextSearch
+{
+    height:64px;
+}
+.leaflet-control-zoom
+{
+    margin: 0 !important;
+    border-radius: 0 !important;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12) !important;
+}
+.leaflet-control-zoom-in
+{
+    padding-top:5px;
+}
+.leaflet-control-zoom-out
+{
+    padding-top:7px;
+}
+.leaflet-control-zoom-in,
+.leaflet-control-zoom-out
+{
+
+    font-size: 40px;
+    line-height: 40px;
+    width: 40px !important;
+    height: 40px !important;
+    color:white !important;
+    background-color: #F44336 !important;
+    border-radius: 0 !important;
+}
+
+.leaflet-control-zoom-in:hover,
+.leaflet-control-zoom-out:hover
+{
+    background-color: rgb(216, 67, 54) !important;
+}
+.ui-autocomplete
+{
+    z-index: 999;
+}
+.ui-autocomplete li
+{
+    background-color: white;
+    width: 400px;
+    padding:5px 10px 5px 60px;
+    border-bottom: 1px solid #e6e6e6;
+}
+.ui-autocomplete li:hover
+{
+    background-color: #fafafa !important;
+    cursor: pointer;
+}
+/* newsletter*/
+#newsletterResponse
+{
+    display: none;
+}
+

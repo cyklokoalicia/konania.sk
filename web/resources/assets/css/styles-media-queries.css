@@ -1,0 +1,50 @@
+@media only screen and (max-width: 600px)
+{
+    .ovladacie-prvky
+    {
+        width: 100% !important;
+        margin: 0;
+        padding: 10px;
+    }
+    #burger-menu
+    {
+        height: 56px;
+        padding: 11px 30px 6px 30px;
+    }
+    #fullTextSearchContainer
+    {
+        display: none;
+    }
+    .leaflet-control-container .leaflet-left
+    {
+        left:10px;
+    }
+    .leaflet-control-container .leaflet-top
+    {
+        top:80px;
+    }
+
+    /*#fullTextSearchContainer
+    {
+        width: calc(100% - 100px);
+        float: right;
+    }
+
+    .leaflet-control-container .leaflet-left
+    {
+        left:12px;
+    }
+    .leaflet-control-container .leaflet-top
+    {
+        top:80px;
+    }
+    .ui-autocomplete
+    {
+            width: calc(100% - 100px) !important;
+    }
+    .ui-autocomplete li
+    {
+        padding: 5px 10px 5px 15px;
+        width: calc(100% - 100px) !important;
+    }*/
+}
